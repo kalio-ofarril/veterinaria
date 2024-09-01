@@ -1,0 +1,24 @@
+.dropdown-header{
+    color: #D6CCC2 !important;
+    font-size: 1rem;
+}
+
+.dropdown-menu-options-container{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.dropdown-menu-options{
+    background-color: rgb(56, 56, 56);
+    color: #D6CCC2 !important;
+    font-size: 0.8rem;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.3rem !important;
+    padding-left: 0.5rem;
+    border: none;
+}
+
+.dropdown-menu-options:hover{
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}

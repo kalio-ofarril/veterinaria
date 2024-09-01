@@ -1,0 +1,26 @@
+.about-section-container{
+    background-color: rgb(38, 38, 38);
+    color: #D6CCC2;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.about-us-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-us-row{
+    margin-bottom: 5%;
+}
+
+.about-us-p{
+    text-align: justify;
+}
+
+.no-side-margin{
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+}

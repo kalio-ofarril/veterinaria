@@ -1,0 +1,36 @@
+.products-overview-container{
+    background-color: rgb(38, 38, 38);
+    color: #D6CCC2 !important;
+    padding-bottom: 15%;
+}
+
+.product-overview-title{
+    margin: 1rem;
+    text-align: center;
+}
+
+.product-overview-col:hover{
+    cursor: pointer;
+}
+
+.product-overview-img{
+    transition: transform 300ms;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-overview-img:hover{
+    transform: scale(1.05);
+    border-bottom: 0.1rem #2ab7ca solid;
+}
+
+.product-overview-text:hover{
+    border-bottom: 0.1rem #2ab7ca solid;
+}
+
+@media only screen and (max-width: 770px){
+    .product-overview-col{
+        padding-left: 2.5rem !important;
+    }
+}
+

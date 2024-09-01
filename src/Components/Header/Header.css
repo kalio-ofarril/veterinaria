@@ -1,0 +1,50 @@
+.header{
+    height: 8rem;
+    /* background-color: #274C77; */
+    background-color: #262626;
+    width: 100% !important;
+    margin: 0rem !important;
+    max-width: 100% !important;
+}
+
+.header-logo{
+    color: #2ab7ca;
+    font-size: 4rem;
+    padding-top: 0.4rem;
+}
+
+.header-info{
+    color: #D6CCC2;
+    margin-bottom: 0rem;
+    font-size: 0.8rem;  
+    float: right;
+    color: #2ab7ca;
+    padding-top: 0.2rem;
+}
+
+.row-header-title{
+    text-align: left;
+}
+
+.header-title{
+    color: #D6CCC2;
+    margin-bottom: 0rem;
+    font-size: 1rem;  
+    float: left;
+}
+
+.header-slogan{
+    padding-top: 0.5rem;
+    color: #ffc107;
+}
+
+.whatsapp-header{
+    color: greenyellow;
+    padding-left: 7rem;
+}
+
+@media only screen and (max-width: 770px){
+    .header-contact-data{
+        visibility: hidden;
+    }
+}

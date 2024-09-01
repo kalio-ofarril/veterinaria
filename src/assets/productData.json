@@ -1,0 +1,148 @@
+{
+    "products" : [
+        {
+            "id" :1,
+            "name" : "Máquina 1 Editada",
+            "img" : "p5",
+            "imgs-description" : ["p1","p5","p3"],
+            "category" : "Proceso",
+            "description" : "Breve descripción de la máquina ddd",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6",
+                "tonelajje" : "aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa",
+                "toaanelajje" : "aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa",
+                "tonelajrrrje" : "aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa"
+            }
+        },
+        {
+            "id" :2,
+            "name" : "Máquina 2",
+            "img" : "p2",
+            "imgs-description" : ["p2","p5"],
+            "category" : "Corte",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :3,
+            "name" : "Máquina 3",
+            "img" : "p3",
+            "imgs-description" : ["p3","p5"],
+            "category" : "Proceso",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :4,
+            "name" : "Máquina 4",
+            "img" : "p4",
+            "imgs-description" : ["p4","p5"],
+            "category" : "Corte",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :5,
+            "name" : "Máquina 5",
+            "img" : "p5",
+            "imgs-description" : ["p5","p3"],
+            "category" : "Empacado",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :6,
+            "name" : "Máquina 6",
+            "img" : "p6",
+            "imgs-description" : ["p6","p5"],
+            "category" : "Empacado",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :7,
+            "name" : "Máquina 7",
+            "img" : "p7",
+            "imgs-description" : ["p7","p5"],
+            "category" : "corte",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        },
+        {
+            "id" :8,
+            "name" : "Máquina 8",
+            "img" : "p8",
+            "imgs-description" : ["p8","p5"],
+            "category" : "corte",
+            "description" : "Breve descripción de la máquina",
+            "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
+            "details" : {
+                "detalle 1" : "info detalle 1",
+                "detalle 2" : "info detalle 2",
+                "detalle 3" : "info detalle 3",
+                "detalle 4" : "info detalle 4",
+                "detalle 5" : "info detalle 5",
+                "detalle 6" : "info detalle 6"
+            }
+        }
+    ],
+    "productsDisplayHeader" : {
+        "corte": "Equipo de Corte",
+        "empacado": "Equipo de Empacado",
+        "proceso": "Equipo de Proceso"
+    }
+} 

@@ -1,0 +1,107 @@
+.main-image-slider-container{
+    max-height: calc(100% - 4rem);
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    height: calc(55% - 0rem);
+    overflow: hidden;
+}
+
+.main-image-slider-img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 10/6;
+    display: block;
+    margin: 0 auto;
+    min-width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    transition: translate 300ms ease-in-out;
+}
+
+.main-image-slider-btn-container{
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    z-index: 999;
+    font-size: 3rem;
+    transition: background-color 100ms ease-in-out;
+}
+
+.main-image-slider-btn{
+    position: relative;
+    top: calc(50% - 2rem);
+}
+
+.main-image-slider-btn-container:hover,
+.main-image-slider-btn-container:focus-visible{
+    background-color: rgb(0,0,0,0.2);
+}
+
+.arrow-left:hover > *,
+.arrow-left:focus-visible > *{
+    animation: squishLeft 300ms ease-in-out;
+}
+
+.arrow-right:hover > *,
+.arrow-right:focus-visible > *{
+    animation: squishRight 300ms ease-in-out;
+}
+
+.main-image-slider-slider{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.main-image-slider-bottom-btns-container{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    translate: -50%;
+    display: flex;
+    gap: .25rem;
+}
+
+.main-image-slider-bottom-btns{
+    color: white;
+    border: none;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 100%;
+    scale: 1 1;
+    transition: scale 100ms ease-in-out;
+}
+
+.main-image-slider-bottom-btns:hover,
+.main-image-slider-bottom-btns:focus-visible{
+    scale: 1.2 1.2;
+    color: #2ab7ca;
+}
+
+.main-image-slider-bottom-btns > *{
+    font-size: 1.5rem;
+}
+
+@keyframes squishLeft {
+    50%{
+        left: -1rem;
+        color: #2ab7ca;
+    }
+}
+
+@keyframes squishRight {
+    50%{
+        right: -1rem;
+        color: #2ab7ca;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .main-image-slider-container{
+        height: 30%;
+    }
+}

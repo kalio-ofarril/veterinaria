@@ -1,0 +1,42 @@
+.contact-tile-container{
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #2ab7ca;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-us-contact{
+    background-color: #2ab7ca;
+    height: 30%;
+    margin: 0rem !important;
+}
+
+.contact-title-icon{
+    font-size: 4rem;
+}
+
+.contact-title-btn-container{
+    padding-top: 1%;
+}
+
+.contact-title-btn{
+    height: 70%;
+    min-height: 50px;
+    max-width: 225px;
+}
+
+@media only screen and (max-width: 770px){
+    .contact-title-btn-container{
+        padding-left: 20% !important;
+    }
+
+    .contact-title-btn{
+        height: 70%;
+    }
+
+    .contact-title-btn-container{
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+}
