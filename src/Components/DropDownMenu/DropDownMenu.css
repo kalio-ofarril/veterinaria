@@ -1,5 +1,5 @@
 .dropdown-header{
-    color: #D6CCC2 !important;
+    color: var(--text-primary) !important;
     font-size: 1rem;
 }
 
@@ -10,7 +10,7 @@
 
 .dropdown-menu-options{
     background-color: rgb(56, 56, 56);
-    color: #D6CCC2 !important;
+    color: var(--text-primary) !important;
     font-size: 0.8rem;
     padding-top: 0.2rem !important;
     padding-bottom: 0.3rem !important;

@@ -3,7 +3,7 @@
     max-height: 60% !important;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: rgb(38, 38, 38);
+    background-color: var(--background);
     margin: 0rem !important;
 }
 

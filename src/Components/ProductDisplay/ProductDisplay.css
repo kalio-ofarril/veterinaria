@@ -1,6 +1,6 @@
 .product-display-container{
-    background-color: rgb(38, 38, 38);
-    color: #D6CCC2;
+    background-color: var(--background);
+    color: var(--text-primary);
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -32,5 +32,5 @@
 .product-display-product-card:hover{
     cursor: pointer;
     transform: scale(1.05);
-    border-bottom: 0.3rem #2ab7ca solid;
+    border-bottom: 0.3rem var(--primary-color) solid;
 }

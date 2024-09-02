@@ -1,24 +1,23 @@
 .header{
     height: 8rem;
-    /* background-color: #274C77; */
-    background-color: #262626;
+    background-color: var(--background);
     width: 100% !important;
     margin: 0rem !important;
     max-width: 100% !important;
 }
 
 .header-logo{
-    color: #2ab7ca;
+    color: var(--primary-color);
     font-size: 4rem;
     padding-top: 0.4rem;
 }
 
 .header-info{
-    color: #D6CCC2;
+    color: var(--text-primary);
     margin-bottom: 0rem;
     font-size: 0.8rem;  
     float: right;
-    color: #2ab7ca;
+    color: var(--primary-color);
     padding-top: 0.2rem;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .header-title{
-    color: #D6CCC2;
+    color: var(--text-primary);
     margin-bottom: 0rem;
     font-size: 1rem;  
     float: left;
@@ -35,7 +34,7 @@
 
 .header-slogan{
     padding-top: 0.5rem;
-    color: #ffc107;
+    color: var(--secondary-color);
 }
 
 .whatsapp-header{

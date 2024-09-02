@@ -1,13 +1,13 @@
 .contact-tile-container{
     width: 100% !important;
     max-width: 100% !important;
-    background-color: #2ab7ca;
+    background-color: var(--primary-color);
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .about-us-contact{
-    background-color: #2ab7ca;
+    background-color: var(--primary-color);
     height: 30%;
     margin: 0rem !important;
 }

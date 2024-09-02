@@ -1,11 +1,11 @@
 .footer-container{
     padding-top: 5%;
-    background-color: rgb(38, 38, 38);
-    color: #D6CCC2 !important;
+    background-color: var(--background);
+    color: var(--text-primary) !important;
 }
 
 .footer-info-header{
-    border-bottom: 0.1rem #2ab7ca solid;
+    border-bottom: 0.1rem var(--primary-color) solid;
     height: 3.5rem;
     margin-bottom: 0.5rem;
 }
@@ -26,7 +26,7 @@
 
 .footer-info-link:hover{
     cursor: pointer;
-    color: #2ab7ca
+    color: var(--primary-color)
 }
 
 .footer-form{

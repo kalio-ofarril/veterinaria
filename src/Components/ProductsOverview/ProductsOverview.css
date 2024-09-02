@@ -1,6 +1,6 @@
 .products-overview-container{
-    background-color: rgb(38, 38, 38);
-    color: #D6CCC2 !important;
+    background-color: var(--background);
+    color: var(--text-primary) !important;
     padding-bottom: 15%;
 }
 
@@ -21,11 +21,11 @@
 
 .product-overview-img:hover{
     transform: scale(1.05);
-    border-bottom: 0.1rem #2ab7ca solid;
+    border-bottom: 0.1rem var(--primary-color) solid;
 }
 
 .product-overview-text:hover{
-    border-bottom: 0.1rem #2ab7ca solid;
+    border-bottom: 0.1rem var(--primary-color) solid;
 }
 
 @media only screen and (max-width: 770px){

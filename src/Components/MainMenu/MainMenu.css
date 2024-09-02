@@ -1,7 +1,7 @@
 .main-menu-container{
     width: 100%;
     max-width: 100% !important;
-    background-color: rgb(38, 38, 38);
+    background-color: var(--background);
     padding-bottom: 1rem !important;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .dropdown-header{
-    color: #D6CCC2 !important;
+    color: var(--text-primary) !important;
     font-size: 1.2rem !important;
 }
 
@@ -32,7 +32,7 @@
 
 .menu-col:hover{
     background-color: rgb(56, 56, 56);
-    color: #2ab7ca !important;
+    color: var(--primary-color) !important;
 }
 
 .main-menu-row{

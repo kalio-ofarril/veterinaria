@@ -31,3 +31,16 @@ code {
   width: 100% !important;
   max-width: 100% !important;
 }
+
+:root {
+  --background: #262626;
+  --primary-color: #2ab7ca;
+  --secondary-color: #ffc107;
+  --text-primary: #D6CCC2;
+}
+[data-theme='dark'] {
+  --background: white;
+  --primary-color: #2ab7ca;
+  --secondary-color: #ffc107;
+  --text-primary: black;
+}

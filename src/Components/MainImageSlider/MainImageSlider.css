@@ -79,7 +79,7 @@
 .main-image-slider-bottom-btns:hover,
 .main-image-slider-bottom-btns:focus-visible{
     scale: 1.2 1.2;
-    color: #2ab7ca;
+    color: var(--primary-color);
 }
 
 .main-image-slider-bottom-btns > *{
@@ -89,14 +89,14 @@
 @keyframes squishLeft {
     50%{
         left: -1rem;
-        color: #2ab7ca;
+        color: var(--primary-color);
     }
 }
 
 @keyframes squishRight {
     50%{
         right: -1rem;
-        color: #2ab7ca;
+        color: var(--primary-color);
     }
 }
 
